@@ -1,9 +1,9 @@
 
 # Assistente de RH com IA — n8n + Telegram + MySQL
 
-Projeto desenvolvido durante o curso **Oracle ONE AI For Tech**, com foco em automação com agentes de IA usando n8n.
+Projeto desenvolvido durante a imersão **Oracle ONE AI For Tech**, com foco em automação com agentes de IA usando n8n.
 
-A ideia é simples: um funcionário manda uma mensagem no Telegram perguntando sobre férias, políticas da empresa ou qualquer coisa de RH — e o agente responde consultando o banco de dados e a documentação da empresa automaticamente.
+A ideia é simples: Criar um agente de IA para o setor de RH, onde um funcionário manda uma mensagem no Telegram perguntando sobre férias, políticas da empresa ou qualquer coisa de RH e o agente responde consultando o banco de dados e a documentação da empresa automaticamente.
 
 ---
 
@@ -53,15 +53,6 @@ Telegram Trigger
             └── MySQL Tool (dados dos funcionários)
                     └── Send Message (resposta)
 ```
-
----
-
-## Melhorias implementadas além do projeto base
-
-- Normalização de nomes no SQL com `LOWER()` e `TRIM()`
-- Remoção da mensagem automática do n8n nas respostas
-
----
 
 ## Como rodar
 
